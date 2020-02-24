@@ -6,15 +6,19 @@
 
 body {
   color: #5F6368;
-  font-family: 'Roboto', ;
+  font-family: 'Roboto' ;
+
 }
 
 a {
   color: #3367D6;
   text-decoration: none;
 }
-
+header a {
+  color: #5F6368;
+}
 a.active {
+  color: #3367D6;
   border-bottom: 2px solid #3367D6;
 }
 
@@ -46,14 +50,14 @@ header {
 
 .header-top .title-wrapper h3 {
   margin-left: 5px;
-  font-weight: bold;
-  font-size: 22px;
+  font-weight: 400;
+  font-size: 20px;
   line-height: 55px;
   vertical-align: middle;
 }
 
 .header-bottom {
-  margin-top: 20px;
+  margin-top: 15px;
   ;
   display: flex;
   justify-content: space-between;
@@ -80,13 +84,13 @@ header {
 }
 
 .navbar-left ul li a {
-  font-weight: bold;
+  /* font-weight: bold; */
   font-size: 17px;
 }
 
 .right a {
-  color: #5F6368;
-  font-weight: bold;
+  /* color: #5F6368; */
+  /* font-weight: bold; */
   font-size: 17px;
 }
 
