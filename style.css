@@ -6,20 +6,37 @@
 
 body {
   color: #5F6368;
-  font-family: 'Roboto' ;
-
+  font-family: 'Roboto';
+  font-size: 16px;
 }
 
 a {
   color: #3367D6;
   text-decoration: none;
 }
+
 header a {
   color: #5F6368;
 }
+
 a.active {
   color: #3367D6;
   border-bottom: 2px solid #3367D6;
+}
+
+.paragraph {
+  margin: 20px 0;
+}
+
+.faq_title {
+  color: #4B4F52;
+  font-weight: normal;
+  font-size: 25px;
+  margin-top: 80px;
+}
+
+.faq_answer {
+  margin: 20px 0;
 }
 
 header {
@@ -37,7 +54,6 @@ header {
 
 .header-top {
   display: flex;
-  /* background-color: blue; */
   width: 100%;
   height: 55px;
   margin: 0 auto;
@@ -58,14 +74,8 @@ header {
 
 .header-bottom {
   margin-top: 15px;
-  ;
   display: flex;
   justify-content: space-between;
-  /* background-color: green; */
-}
-
-.navbar-left {
-  /* display: flex; */
 }
 
 .navbar-left ul {
@@ -74,7 +84,6 @@ header {
 }
 
 .navbar-left ul li {
-  /* background-color: purple; */
   margin-left: 25px;
   padding: 2px;
 }
@@ -84,21 +93,17 @@ header {
 }
 
 .navbar-left ul li a {
-  /* font-weight: bold; */
   font-size: 17px;
 }
 
 .right a {
-  /* color: #5F6368; */
-  /* font-weight: bold; */
   font-size: 17px;
 }
 
 .wrapper {
-  background-color: yellow;
-  height: calc(100vh - 100px);
+  height: calc(100% - 100px);
   width: 80%;
-  margin: 100px auto;
+  margin: 80px auto 30px;
   padding: 20px;
 }
 
