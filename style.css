@@ -1,3 +1,104 @@
-/* body {
-  background-color: crimson;
-} */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #5F6368;
+  font-family: 'Roboto', ;
+}
+
+a {
+  color: #3367D6;
+  text-decoration: none;
+}
+
+a.active {
+  border-bottom: 2px solid #3367D6;
+}
+
+header {
+  border-top: 1px solid #DEDEDE;
+  border-bottom: 1px solid #DEDEDE;
+  background-color: #fff;
+  height: 100px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  padding: 0 20px;
+}
+
+.header-top {
+  display: flex;
+  /* background-color: blue; */
+  width: 100%;
+  height: 55px;
+  margin: 0 auto;
+}
+
+.header-top .logo img {
+  width: 80px;
+  vertical-align: middle;
+}
+
+.header-top .title-wrapper h3 {
+  margin-left: 5px;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 55px;
+  vertical-align: middle;
+}
+
+.header-bottom {
+  margin-top: 20px;
+  ;
+  display: flex;
+  justify-content: space-between;
+  /* background-color: green; */
+}
+
+.navbar-left {
+  /* display: flex; */
+}
+
+.navbar-left ul {
+  display: flex;
+  list-style: none;
+}
+
+.navbar-left ul li {
+  /* background-color: purple; */
+  margin-left: 25px;
+  padding: 2px;
+}
+
+.navbar-left ul li:first-child {
+  margin-left: 0;
+}
+
+.navbar-left ul li a {
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.right a {
+  color: #5F6368;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.wrapper {
+  background-color: yellow;
+  height: calc(100vh - 100px);
+  width: 80%;
+  margin: 100px auto;
+  padding: 20px;
+}
+
+footer {
+  background-color: #F5F5F5;
+  height: 50px;
+}
