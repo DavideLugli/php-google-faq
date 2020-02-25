@@ -75,8 +75,8 @@ $db = [
   <main>
     <div class="wrapper">
       <?php foreach ($db as $faq => $value) { ?>
-      <h2 class="faq_title"><?php echo $db[$faq]['title']; ?></h2>
-      <p class="faq_answer"><?php echo $db[$faq]['answer']; ?></p>
+      <h2 class="faq_title"><?php echo $value['title']; ?></h2>
+      <p class="faq_answer"><?php echo $value['answer']; ?></p>
       <?php } ?>
     </div>
   </main>
